@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.04em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.2;
+	letter-spacing: 0.04em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	/* object-fit: cover; */
+}
+
+input:focus {
+    outline: none;
+}
+
+button,
+button:hover,
+button:focus {
+    font-family: inherit;
+    outline: none;
+    border: none;
+}
+input,
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
